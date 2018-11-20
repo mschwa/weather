@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Api", "..\Weather.Api\src\Weather.Api.csproj", "{3E28F0F5-97C8-4945-9A1E-CC7E891A4D78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.Api.Tests", "..\Weather.Api\test\Weather.Api.Tests\Weather.Api.Tests.csproj", "{6A7F4FFD-3162-4748-B062-36375EF65539}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E28F0F5-97C8-4945-9A1E-CC7E891A4D78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E28F0F5-97C8-4945-9A1E-CC7E891A4D78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E28F0F5-97C8-4945-9A1E-CC7E891A4D78}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{3E28F0F5-97C8-4945-9A1E-CC7E891A4D78}.Development|Any CPU.Build.0 = Development|Any CPU
+		{3E28F0F5-97C8-4945-9A1E-CC7E891A4D78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E28F0F5-97C8-4945-9A1E-CC7E891A4D78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7F4FFD-3162-4748-B062-36375EF65539}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7F4FFD-3162-4748-B062-36375EF65539}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7F4FFD-3162-4748-B062-36375EF65539}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{6A7F4FFD-3162-4748-B062-36375EF65539}.Development|Any CPU.Build.0 = Development|Any CPU
+		{6A7F4FFD-3162-4748-B062-36375EF65539}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7F4FFD-3162-4748-B062-36375EF65539}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D3202B9D-166A-4A3E-BEC6-5C5382BDD512}
+	EndGlobalSection
+EndGlobal
